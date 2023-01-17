@@ -1,0 +1,9 @@
+[package]
+name = "rust_practice"
+version = "0.1.0"
+edition = "2021"
+authors = ["0xCrypt00o"]
+repository = "https://github.com/Crypt00o/rust_practice"
+
+[dependencies]
+uuid = { version = "1.2.2",features = ["v4","fast-rng","macro-diagnostics"] }
